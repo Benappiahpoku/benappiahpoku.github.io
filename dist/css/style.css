@@ -231,6 +231,14 @@ navbar-brand {
   color: #961004;
 }
 
+@media (max-width: 500px) {
+  .header {
+    width: auto;
+    height: auto;
+    background-image: 100%;
+  }
+}
+
 footer {
   background: #0a78cc;
   color: #fff;
