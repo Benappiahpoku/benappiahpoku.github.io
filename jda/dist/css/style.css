@@ -24,6 +24,18 @@ navbar-brand {
   font-family: "Rubik", sans-serif;
 }
 
+.navbar-brand > img {
+  border-radius: 4rem;
+  width: 1.8rem;
+  margin-right: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 70vw !important;
+  }
+}
+
 .navbar {
   background: #0a78cc;
 }
