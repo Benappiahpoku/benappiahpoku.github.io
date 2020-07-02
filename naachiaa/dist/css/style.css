@@ -1,0 +1,265 @@
+/* Globals */
+/* colors */
+/* Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Rubik:wght@500&display=swap");
+/* Base structure */
+body {
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+navbar-brand {
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar-brand > img {
+  border-radius: .2rem;
+  width: 2.9rem;
+  margin-right: 0.2rem;
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 70vw !important;
+  }
+}
+
+.navbar {
+  background: #f4f4f4;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #1561ac !important;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-left: 1rem !important;
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid #1561ac !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+/* Scroll spy class*/
+.navbar-custom .nav-item > .active {
+  border-bottom: 5px solid #1561ac !important;
+}
+
+/*  header */
+.header {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../img/Main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 110%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.6);
+}
+
+.description {
+  position: absolute;
+  top: 53.5%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.description h1 {
+  color: #1561ac;
+}
+
+.description p {
+  color: #666;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #1561ac;
+  background: #1561ac;
+  color: #fff;
+}
+
+/* About */
+.about {
+  margin: 4rem 0;
+  padding: 1rem;
+  position: relative;
+  background: #1561ac;
+  color: white;
+}
+
+.about h1 {
+  color: white;
+  margin: 2rem;
+}
+
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about span {
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+
+.about .desc {
+  padding: 2rem;
+  border-left: 4px solid #10828c;
+}
+
+.about .desc h3 {
+  color: #10828c;
+}
+
+.about .desc p {
+  line-height: 2;
+  color: #888;
+}
+
+/* Services */
+.services {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.services h1 {
+  color: #1561ac;
+  margin: 2rem;
+}
+
+/* Icon blocks */
+.block-icon-left {
+  overflow: auto;
+}
+
+.block-icon-left h1,
+.block-icon-left h2,
+.block-icon-left h3,
+.block-icon-left h4,
+.block-icon-left h5,
+.block-icon-left h6 {
+  margin: 0 0 0.75rem;
+  padding: 0;
+  font-size: 1.4rem;
+}
+
+.block-icon-left .icon-content {
+  float: left;
+  width: 70%;
+}
+
+.block-icon-left .icon {
+  float: left;
+  width: 30%;
+  margin-top: 0.75rem;
+}
+
+.icon-color {
+  color: #ef2e1c;
+}
+
+/* Products */
+.products {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.products h1 {
+  color: #1561ac;
+  margin: 2rem;
+}
+
+.products .card {
+  margin-top: 2rem;
+}
+
+.products .card img {
+  width: 100%;
+  height: 18.5rem;
+}
+
+.products .card-title {
+  color: #1561ac;
+}
+
+.products .card-body {
+  padding: 1rem;
+}
+
+/* Contact */
+.contact-form {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.contact-form h1 {
+  color: #1561ac;
+  margin: 2rem;
+}
+
+.contact-text {
+  color: #1561ac;
+}
+
+.heart-icon {
+  color: #961004;
+}
+
+@media (max-width: 500px) {
+  .header {
+    width: auto;
+    height: auto;
+    background-image: 100%;
+  }
+}
+
+/* footer */
+footer {
+  background: #1561ac;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
